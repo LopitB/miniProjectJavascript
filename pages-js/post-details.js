@@ -75,4 +75,5 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${idOfPost}/comments`)
             commentsListDiv.appendChild(divCommentInfo);
 
         }
+
     });
