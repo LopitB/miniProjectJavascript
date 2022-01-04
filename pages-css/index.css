@@ -26,15 +26,15 @@ body{
     box-shadow: -14px 24px 26px -2px rgba(34, 60, 80, 0.57);
 }
 
-.id{
+.user-id{
     font-size: 1.3em;
 }
 
-.name-block{
+.user-name-block{
     font-size: 1.5em;
 }
 
-.button-block{
+.user-button-block{
     box-sizing: border-box;
     width: 95%;
     height: 80px;
@@ -46,8 +46,9 @@ body{
     cursor: pointer;
 }
 
-.button-block:hover{
+.user-button-block:hover{
     background: royalblue;
     color:#A3E7FD;
     border-color:#A3E7FD;
 }
+
