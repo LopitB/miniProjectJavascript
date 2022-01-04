@@ -1,0 +1,53 @@
+body{
+    background: lightgreen;
+    font-family:cursive;
+}
+
+.allInUsers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 20px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    row-gap: 2%;
+    width: 49%;
+    height: 165px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: lightskyblue;
+    box-shadow: -14px 24px 26px -2px rgba(34, 60, 80, 0.57);
+}
+
+.id{
+    font-size: 1.3em;
+}
+
+.name-block{
+    font-size: 1.5em;
+}
+
+.button-block{
+    box-sizing: border-box;
+    width: 95%;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: deepskyblue;
+    font-size: 1.6em;
+    font-family:cursive;
+    cursor: pointer;
+}
+
+.button-block:hover{
+    background: royalblue;
+    color:#A3E7FD;
+    border-color:#A3E7FD;
+}
